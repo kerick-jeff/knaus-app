@@ -63,7 +63,7 @@ var TabsPage = /** @class */ (function () {
         this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__contact_contact__["a" /* ContactPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Online-Kalender" tabIcon="calendar"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Facebook" tabIcon="logo-facebook"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Kontakt" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Online-Kalender" tabIcon="calendar"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Facebook" tabIcon="logo-facebook"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Kontakt" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -98,7 +98,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Facebook Timeline\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fknaushairdesign%2F&tabs=timeline&width=400&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=220594128457568" width="390" height="700" data-adapt-container-width="true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>\n</ion-content>\n'/*ion-inline-end:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Facebook Timeline\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fknaushairdesign%2F&tabs=timeline&width=400&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=220594128457568" width="390" height="700" data-adapt-container-width="true" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>\n</ion-content>\n'/*ion-inline-end:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], AboutPage);
@@ -133,7 +133,7 @@ var ContactPage = /** @class */ (function () {
     }
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/contact/contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/contact/contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], ContactPage);
@@ -168,7 +168,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <h1 class="title"><img class="title-image" src="http://www.ionicframework.com/img/ionic-logo-white.svg" width="123" height="43" /></h1>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div id="iy">...</div>\n</ion-content>\n'/*ion-inline-end:"/Users/pascallammers/Development/knausapp/knaustest/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <h1 class="title">\n      <img class="title-image" src="../../assets/imgs/logo-knaus.png" width="210"/>\n    </h1>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div id="iy">...</div>\n</ion-content>\n'/*ion-inline-end:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
@@ -299,7 +299,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/pascallammers/Development/knausapp/knaustest/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/pascallammers/Development/knausapp/knaustest/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/pascallammers/Development/Ionic_Projects/Knaus/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
