@@ -1,0 +1,8 @@
+{
+  "name": "knaustest",
+  "app_id": "f20cadd5",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
