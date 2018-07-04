@@ -6,3 +6,5 @@ node_modules/
 platforms/
 www/
 plugins/
+.source_maps/
+package-lock.json
