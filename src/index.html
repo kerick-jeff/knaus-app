@@ -18,7 +18,21 @@
   <!-- cordova.js required for cordova apps (remove if not needed) -->
   <script src="cordova.js"></script>
 
-  <script src="//app.instyler.de/pubi/KNAUS"></script>
+
+  <script type="text/javascript" id="loadKnaus"></script>
+
+
+
+
+  <script>
+
+    window.onload = function() {
+      setTimeout(function() {
+        document.getElementById("loadKnaus").src="https://app.instyler.de/pubi/KNAUS";
+      }, 6500);
+    };
+
+  </script>
 
   <!-- un-comment this code to enable service worker
   <script>
